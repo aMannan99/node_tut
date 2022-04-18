@@ -1,0 +1,22 @@
+{
+  "name": "node_tut",
+  "version": "1.0.0",
+  "description": "this is my first package in node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "'https://github.com/aMannan99/Node'"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "Abdul Mannan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0"
+  }
+}
