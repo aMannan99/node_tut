@@ -37,21 +37,31 @@ console.log("in which directory we are =>",__dirname); // __dirname gives the di
 
 // //creating server;
 
-const http=require('http');   //http module handle request and response data from server end;
-http.createServer((req,resp)=>{
-   resp.write("<h1>hola this is server created</h1>");
-   resp.end();
-}).listen(4500);
+// const http=require('http');   //http module handle request and response data from server end;
+// http.createServer((req,resp)=>{
+//    resp.write("<h1>hola this is server created</h1>");
+//    resp.end();
+// }).listen(4500);
 
 //what is package.json file in node.js; it keeps the detail related to coding part;
 //just type:' npm init ' in terminal;
 let color=require('colors');
 console.log("hellow".red);
 
-import chalk from 'chalk';
+// import chalk from 'chalk';
 
-const log = console.log;
+// const log = console.log;
 
-// Combine styled and normal strings
-log(chalk.blue('Hello') + ' World' + chalk.red('!'));
-log(chalk.blue.bgRed.bold('Hello world!'));
+// // Combine styled and normal strings
+// log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+// log(chalk.blue.bgRed.bold('Hello world!'));
+
+//nodemon package : by using this package apne aap hi program chalta rhega hme bar bar rum krne ki zarurat nhi;
+
+
+console.log('try nodemon');
+console.log(20+34);
+console.log(45);
+console.log(10);
+console.log(34+23)
+
